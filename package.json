@@ -9,7 +9,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "preinstall": "npx npm-force-resolutions"
   },
   "files": [
     "index.js"
@@ -35,8 +36,8 @@
     "hint"
   ],
   "devDependencies": {
+    "acorn": "^7.1.1",
     "eslint": "^5.16.0",
-    "eslint-plugin-react": "^7.19.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-postcss": "^3.0.6",
     "eslint-import-resolver-babel-module": "5.0.0-beta.1",
@@ -44,12 +45,15 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.3.0",
-    "eslint-plugin-sonarjs": "^0.4.0"
+    "eslint-plugin-sonarjs": "^0.4.0",
+    "minimist": ">=1.2.5"
   },
   "peerDependencies": {
-    "eslint": ">=5.16.0",
-    "acorn": ">=6.4.1",
-    "minimist": ">=1.2.2"
+    "eslint": ">=5.16.0"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5"
   }
 }
