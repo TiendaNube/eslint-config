@@ -1,6 +1,7 @@
 {
   "name": "@tiendanube/eslint-config",
   "version": "0.1.0",
+  "private": false,
   "description": "ESLint shareable config for the Tiendanube projects",
   "license": "MIT",
   "repository": "polyglot-library/config-polyglot-eslint",
@@ -9,8 +10,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "node test/test.js",
-    "preinstall": "npx npm-force-resolutions"
+    "test": "node test/test.js"
   },
   "files": [
     "index.js"
