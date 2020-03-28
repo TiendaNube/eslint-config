@@ -1,7 +1,7 @@
 module.exports = {
   "extends": [
     "plugin:react/recommended",
-    "google"
+    "airbnb"
   ],
   "plugins": [
     "babel",
