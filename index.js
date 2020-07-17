@@ -1,7 +1,6 @@
 module.exports = {
   "extends": [
-    "plugin:react/recommended",
-    "airbnb"
+    "plugin:react/recommended"
   ],
   "plugins": [
     "babel",
@@ -37,7 +36,6 @@ module.exports = {
     "no-confusing-arrow":0,
     "no-negated-condition":0,
     "no-plusplus": 0,
-    "experimentalDecorators":true,
     "global-require":0,
     "require-jsdoc":0,
     "strict":0,
