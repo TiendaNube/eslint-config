@@ -1,6 +1,6 @@
 {
   "name": "@tiendanube/eslint-config",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "private": false,
   "description": "ESLint shareable config for the Tiendanube projects",
   "license": "MIT",
